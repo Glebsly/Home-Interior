@@ -68,7 +68,7 @@ text-align: center;
   margin: 280px 0 0 0;
   padding: 0 0 0 0;
 }
-.slider .trending{
+.trending{
 display: block;
 color: #43a047;
 font-size: 18px;
@@ -176,7 +176,7 @@ border-bottom: 3px solid #212121;
   margin-top: 16px;
 }
 .preview .goods{
-  height: 270px;
+
   display: grid;
   grid-template-columns: repeat(auto-fill, 270px);
   grid-gap: 30px;
@@ -224,14 +224,16 @@ border-bottom: 3px solid #212121;
 }
 .big-promo{
   display: flex;
-  width: 100%;
-  margin: 0 0 0 0;
+  width: 113.8333%;
+  margin: 120px 0 0 -83px;
 }
 .big-promo div{
+  display: block;
   width: 50%;
-  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  padding: 228px 0 67px 36px;
 }
-.big-promo .exclusive{
+.exclusive{
 display: block;
 color: #1e88e5;
 letter-spacing: 1.8px;
@@ -258,7 +260,93 @@ margin: 0 0 2px 0;
   line-height: 24px;
   margin: 14px 0 28px 0;
 }
-.big-promo .order{
+
+.big-promo .first{
+  background-image: url(../img/promo-img1.jpg);
+  background-size: cover;
+}
+.big-promo .second{
+  background-image: url(../img/promo-img.jpg);
+  background-size: cover;
+}
+.trending-box{
+  width: 100%;
+  margin: 152px 0 0 0;
+  text-align: center;
+}
+.trending-box .header{
+  display: flex;
+  justify-content: space-between;
+}
+.trending-box .header span{
+  text-transform: capitalize;
+  color: #212121;
+  font-size: 36px;
+  font-weight: 700;
+}
+.trending-box .explore{
+  background-color: Transparent;
+  border: none;
+  height: 100%;
+  width: 185px;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+   color: #212121;
+  letter-spacing: 3.0px;
+  margin-top: 16px;
+}
+.trending-box .goods{
+  display: grid;
+  margin: 60px auto 0 auto;
+  grid-template-columns: repeat(auto-fill, 370px);
+  grid-gap: 30px;
+}
+.promo2{
+  display: block;
+  width: 113.8333%;
+  height: 520px;
+  margin: 120px 0 0 -83px;
+  padding: 275px 0 0px 80px;
+  background-image: url(../img/slider.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.hot-deal{
+display: block;
+color: #e53935;
+letter-spacing: 1.8px;
+font-size: 18px;
+font-weight: 700;
+text-transform: uppercase;
+margin: 0 0 2px 0;
+}
+.promo2 .header{
+  display: block;
+  color: #212121;
+  font-size: 62px;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin: 0 0 0 0;
+  letter-spacing: -3px;
+}
+.promo2 .short-description{
+  max-width: 374px;
+  letter-spacing: -0.2px;
+  color: #6c6c6c;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  margin: 14px 0 26px 0;
+}
+.promo2 .slider-btn{
+  display: block;
+  padding: 82px 0 0 39.5%;
+}
+.order{
+  display: block;
   width: 212px;
   height: 45px;
   box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
@@ -270,6 +358,17 @@ margin: 0 0 2px 0;
   text-transform: uppercase;
   border: none;
   color: #212121;
+  text-align: center;
   letter-spacing: 3.6px;
   margin-bottom: 144px;
+}
+.additional-goods{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}
+.additional-goods .second{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 270px);
+  grid-gap: 30px;
 }
