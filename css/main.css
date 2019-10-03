@@ -395,6 +395,7 @@
 
 .useful-information {
   grid-area: b;
+  width: 350px;
 }
 
 .stay-in-touch {
@@ -406,8 +407,9 @@
   grid-area: d;
 }
 
-.social {
+.social-block {
   grid-area: e;
+  display: flex;
 }
 
 .terms-n-conditions {
@@ -500,4 +502,20 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.6px;
+}
+
+.social {
+  height: 25px;
+  width: 27px;
+  background-color: #6c6c6c;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 3px;
+  padding-left: 1px;
+  margin-right: 3px;
+}
+
+.social img {
+  height: 20px;
+  width: 20px;
 }
